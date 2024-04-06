@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+h1 {
+    color: rgb(193, 194, 209);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 7em;
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 body{
     height: 100vh;
     cursor: none;
