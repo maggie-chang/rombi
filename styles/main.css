@@ -13,64 +13,71 @@
     );
   }
   
-  body {
-    cursor: none;
-    min-height: 100vh;
-    color:#456e82;
-    background: #ddd;
-    background-image: var(--gradient);
-    background-size: 400%;
-    animation: bg-animation 20s infinite alternate;
-  }
+body {
+  cursor: none;
+  min-height: 100vh;
+  color:#456e82;
+  background: #ddd;
+  background-image: var(--gradient);
+  background-size: 400%;
+  animation: bg-animation 20s infinite alternate;
+}
   
-  @keyframes bg-animation {
-    0% {
-      background-position: left;
-    }
-    100% {
-      background-position: right;
-    }
+@keyframes bg-animation {
+  0% {
+    background-position: left;
   }
+  100% {
+    background-position: right;
+  }
+}
   
-  h1 {
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 7em;
-    margin: 15px;
-    padding: 20px;
-    border-bottom: 8px dotted white;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    opacity: 60%
-  }
+h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 7em;
+  margin: 15px;
+  padding: 20px;
+  border-bottom: 8px dotted white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  opacity: 60%
+}
   
-  .nav-menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-  }
+.nav-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
   
-  .nav-menu a {
-    text-decoration: none;
-    font-size: 15px;
-    border-radius: 10%;
-    padding: 7px;
-    transform: translateY(50px);
-    color: #456e82;
-    background-color: rgb(229, 239, 246);
-    border: 1px dotted rgb(180, 203, 217);
-    opacity: 75%
-  }
+.nav-menu a {
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 10%;
+  padding: 7px;
+  transform: translateY(50px);
+  color: #456e82;
+  background-color: rgb(229, 239, 246);
+  border: 1px dotted rgb(180, 203, 217);
+  opacity: 80%;
+  transition: .5s ease-in;
+}
   
-  .nav-menu a:hover {
-    color: rgb(255, 255, 255);
-    background-color: #456e82;
-    border: 2px dotted rgb(255, 255, 255);
-    transition: background-color 0.05s;
-    opacity: 50%
-  }
+.nav-menu a:hover {
+  color: rgb(255, 255, 255);
+  background-color: #7294a6;
+  border: 2px dotted rgb(255, 255, 255);
+  transition: background-color 0.05s;
+  opacity: 45%
+}
+
+.nav-menu a:active {
+  color: rgb(255, 255, 255);
+  background-color: #a2b7bc;
+  transform:scale(1.1,1.1);
+}

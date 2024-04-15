@@ -1,3 +1,5 @@
+console.log("wahooooo")
+
 const cursorDot = document.querySelector("[data-cursor-dot]");
 const cursorOutline = document.querySelector("[data-cursor-outline]");
 
