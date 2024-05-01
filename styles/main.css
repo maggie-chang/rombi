@@ -65,19 +65,18 @@ h1 {
   background-color: rgb(229, 239, 246);
   border: 1px dotted rgb(180, 203, 217);
   opacity: 80%;
-  transition: .5s ease-in;
+  transition: .2s ease-in;
 }
   
 .nav-menu a:hover {
   color: rgb(255, 255, 255);
   background-color: #7294a6;
   border: 2px dotted rgb(255, 255, 255);
-  transition: background-color 0.05s;
   opacity: 45%
 }
 
 .nav-menu a:active {
   color: rgb(255, 255, 255);
   background-color: #a2b7bc;
-  transform:scale(1.1,1.1);
+  transition: transform scale(1.1,1.1);
 }
